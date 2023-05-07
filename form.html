@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja
+">
+
+<head>
+    <meta charset="UTF-8">
+    <title>K's cafe お問い合わせ</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="contents"><span class="section">概要</span><span class="border"></span></li>
+                <li id="position"><span class="section">所在地</span><span class="border"></span></li>
+                <li id="menu"><span class="section">メニュー</span><span class="border"></span></li>
+                <li id="form"><span class="section">お問い合わせ</span></li>
+            </ul>
+        </nav><br>
+    </header>
+    <main>
+        <h1>お問い合わせ</h1>
+        <form action="">
+            <label for="contents">お問い合わせ内容: </label>
+            <select name="" id="">
+                <option value="接客について">接客について</option>
+                <option value="商品について">商品について</option>
+                <option value="このサイトについて">このサイトについて</option>
+                <option value="要望">要望</option>
+            </select><br>
+            <label for="e-mail" class="email">E-mail: </label>
+            <input type="email" name="" id="email" class="email" required><br>
+            <label for="detail" class="detail">詳細: </label>
+            <textarea name="" id="" cols="40" rows="5"></textarea><br>
+            <input type="submit" value="送信" class="submit">
+            <input type="reset" value="リセット" class="reset">
+        </form>
+    </main>
+</body>
+
+</html>
