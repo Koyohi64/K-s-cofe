@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    font-family: '游明朝';
+}
+
+main {
+    font-size: 30px;
+    background-color: rgb(243, 236, 217);
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+select {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+label {
+    margin-right: 40px;
+}
+
+.email{
+    margin-top: 20px;
+}
+#email {
+    font-size: 30px;
+}
+
+textarea {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.detail {
+    margin-top: 30px;
+}
+.submit{
+    margin-left: 40px;
+}
+.submit,.reset {
+    margin-block: 40px;
+    padding: 20px;
+    padding-inline: 30px;
+    background-color: white;
+    font-size: 20px;
+    border: solid 4px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(94, 94, 94);
+}
+.submit:active,.reset:active{
+    box-shadow: 0 0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.reset{
+    margin-left: 20px;
+}
